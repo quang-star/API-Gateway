@@ -4,7 +4,7 @@ import { config } from "../config/env";
 
 const router = Router();
 
-// All non-order routes → user service
+// All non-order routes → chat service
 router.use(createProxyHandler(config.chatServiceUrl));
 
 export default router;
