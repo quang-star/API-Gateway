@@ -4,7 +4,7 @@ import { config } from "../config/env";
 
 const router = Router();
 
-// All non-order routes → user service
+// All non-order routes → auth service
 router.use(createProxyHandler(config.authServiceUrl));
 
 export default router;
