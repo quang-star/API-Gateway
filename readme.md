@@ -35,6 +35,10 @@ npm install
 
 npm install -D typescript ts-node @types/node @types/express @types/cors @types/morgan @types/axios
 
+// Cài thêm 
+npm install multer 
+
+
 
 4. Khởi tạo file tsconfig.json nếu chưa có:
 
